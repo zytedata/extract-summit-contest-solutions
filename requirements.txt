@@ -39,7 +39,7 @@ filelock==3.12.4
     # via tldextract
 hyperlink==21.0.0
     # via twisted
-idna==3.4
+idna==3.7
     # via
     #   hyperlink
     #   requests
