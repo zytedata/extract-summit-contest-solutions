@@ -1,3 +1,4 @@
+*.jsonl
 __pycache__
 /venv/
 /build/
