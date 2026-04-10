@@ -4,13 +4,13 @@
 #
 #    pip-compile
 #
-aiohappyeyeballs==2.4.3
+aiohappyeyeballs==2.6.1
     # via aiohttp
-aiohttp==3.10.10
+aiohttp==3.13.4
     # via
     #   -r requirements.in
     #   zyte-api
-aiosignal==1.3.1
+aiosignal==1.4.0
     # via aiohttp
 andi==0.6.0
     # via
@@ -203,7 +203,9 @@ price-parser==0.3.4
 priority==1.3.0
     # via twisted
 propcache==0.2.0
-    # via yarl
+    # via
+    #   aiohttp
+    #   yarl
 protego==0.3.1
     # via scrapy
 pyasn1==0.6.1
@@ -388,6 +390,7 @@ types-python-dateutil==2.9.0.20241003
     # via arrow
 typing-extensions==4.12.2
     # via
+    #   aiosignal
     #   pydantic
     #   pydantic-core
     #   twisted
@@ -420,7 +423,7 @@ web-poet==0.17.1
     #   zyte-common-items
 webcolors==24.8.0
     # via jsonschema
-yarl==1.15.4
+yarl==1.18.3
     # via aiohttp
 zope-interface==7.1.0
     # via
