@@ -192,7 +192,7 @@ parsel==1.9.1
     #   scrapy-poet
     #   web-poet
     #   zyte-parsers
-pillow==11.0.0
+pillow==12.2.0
     # via -r requirements.in
 premailer==3.10.0
     # via spidermon
