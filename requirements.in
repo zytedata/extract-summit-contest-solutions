@@ -7,7 +7,7 @@ zyte-spider-templates
 # https://raw.githubusercontent.com/scrapinghub/scrapinghub-stack-scrapy/refs/heads/branch-2.11/requirements.in
 # To allow pip-compile to generate a complete, valid dependency tree:
 
-Scrapy==2.11.2
+Scrapy==2.15.0
 
 # scrapinghub glue
 scrapinghub-entrypoint-scrapy==0.17.4
