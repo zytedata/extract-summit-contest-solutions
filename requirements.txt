@@ -378,7 +378,7 @@ tqdm==4.55.1
     # via
     #   shub
     #   zyte-api
-twisted[http2]==24.7.0
+twisted[http2]==26.4.0rc2
     # via
     #   -r requirements.in
     #   scrapy
